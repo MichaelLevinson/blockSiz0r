@@ -14,7 +14,7 @@ function getContractSizes(contractPath) {
   const input = {
     language: 'Solidity',
     sources: { 
-      'GaslightDungeon.sol': { content: source } 
+      'enter contract name here.sol': { content: source } // using your contract name
     },
     settings: { 
       outputSelection: { 
